@@ -1,0 +1,50 @@
+{
+	"fileName": "manifest",
+	"layer": "VENDOR",
+	"fileType": "appdescr_variant",
+	"reference": "s2p.mm.pur.srcgprojqtn.compares1",
+	"id": "vwks.nlp.s2p.mm.srcgprojqtn.compare",
+	"namespace": "apps/s2p.mm.pur.srcgprojqtn.compares1/appVariants/vwks.nlp.s2p.mm.srcgprojqtn.compare/",
+	"version": "1.0.0",
+	"content": [
+		{
+			"changeType": "appdescr_app_setTitle",
+			"content": {},
+			"texts": {
+				"i18n": "i18n/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "i18n"
+			},
+			"texts": {
+				"i18n": "i18n/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_ui5_addNewModelEnhanceWith",
+			"content": {
+				"modelId": "@i18n"
+			},
+			"texts": {
+				"i18n": "i18n/i18n.properties"
+			}
+		},
+		{
+			"changeType": "appdescr_fiori_setRegistrationIds",
+			"content": {
+				"registrationIds": [
+					"F2049"
+				]
+			}
+		},
+		{
+			"changeType": "appdescr_app_setAch",
+			"content": {
+				"ach": "XX-PROJ-CDP-TEST-807"
+			}
+		}
+	]
+}

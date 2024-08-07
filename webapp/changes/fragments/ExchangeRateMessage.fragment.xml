@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" height="100%"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Dialog id="idExchangeRateMessageDialogBox" type="Message" state="Information" title="{i18n>InfoTitle}"
+		class="sapUiResponsiveContentPadding">
+		<content>
+			<FormattedText htmlText="{xVWKSxNLP_ExchangeRateText}"></FormattedText>
+		</content>
+		<buttons>
+			<Button text="{i18n>InfoOkBtn}" press="onExchangeRateMessageOkPress"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
